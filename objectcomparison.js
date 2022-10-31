@@ -1,3 +1,5 @@
+// to compare JSON whether they have same properties without order
+
 let obj1={name:"person 1",age:5}
 let obj2={age:5 ,name:"person 1"}
 
@@ -10,4 +12,7 @@ let isEqualsJson = (obj1,obj2)=>{
 }
 console.log("json is equals: "+ isEqualsJson(obj1,obj2));
 
+  //output
+
+//   json is equals: true
   
